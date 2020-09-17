@@ -36,16 +36,3 @@ Déplacez-vous à la racine de votre projet et tapez la commande suivante:
 ```
 docker-compose -f Jenkins/docker-compose.yml up -d
 ```
-$
-# Pull the code
-```
-git clone https://github.com/aliouba/ci-jenkins-demo.git
-cd ci-jenkins-demo
-```
-
-# Jenkins Installation
-```
-cd jenkins
-docker pull jenkins
-docker-compose up -d
-```
