@@ -9,7 +9,7 @@ docker run -d -p 5000:5000 --restart always --name registry registry:2
 ```
 docker build -t hackathonDevops .
 ```
-# Envoi de l'imae sur le docker registry
+# Envoi de l'image sur le docker registry
 
 ```
 docker tag nginx localhost:5000/hackathonDevops
